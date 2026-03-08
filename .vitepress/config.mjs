@@ -25,5 +25,11 @@ export default defineConfig({
     socialLinks: [
       { icon: 'github', link: 'https://github.com/WenUNxiN' }
     ]
+  },
+
+  vite: {
+    ssr: {
+      noExternal: ['@escook/vitepress-theme', 'vitepress']
+    }
   }
 })
