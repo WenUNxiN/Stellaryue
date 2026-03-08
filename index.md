@@ -3,9 +3,9 @@
 layout: home
 
 hero:
-  name: "My Awesome Project"
-  text: "A VitePress Site"
-  tagline: My great project tagline
+  name: "星跃 | StellarYue"
+  text: "Stellan W."
+  tagline: 以星为向，以技为跃
   actions:
     - theme: brand
       text: Markdown Examples
