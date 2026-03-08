@@ -3,8 +3,8 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   base: '/Stellaryue/',
-  title: "My Awesome Project",
-  description: "A VitePress Site",
+  title: "星跃 | Stellan’s Blog",
+  description: "以星为向，以技为跃",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
@@ -23,7 +23,7 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/WenUNxiN' }
     ]
   }
 })
