@@ -3,8 +3,8 @@
 layout: home
 
 hero:
-  name: "星跃 | StellarYue"
-  text: "Stellan W."
+  name: "星跃 | Astral Leap"
+  # text: "Stellan W."
   tagline: 以星为向，以技为跃
   image: 
     src: /logo.png

@@ -2,8 +2,8 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  base: '/StellarYue/',
-  title: "星跃 | StellarYue",
+  base: '/AstralLeap/',
+  title: "星跃 | Astral Leap",
   description: "以星为向，以技为跃",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
