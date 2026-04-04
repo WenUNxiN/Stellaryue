@@ -5,8 +5,13 @@ export default defineConfig({
   base: '/AstralLeap/',
   title: "星跃 | Astral Leap",
   description: "以星为向，以技为跃",
+  head: [
+    ['link', { rel: 'shortcut icon', href: '/AstralLeap/favicon.ico' }],
+    ['link', { rel: 'icon', href: '/AstralLeap/favicon.ico' }]
+  ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
+    logo: '/logo.png',
     nav: [
       { text: '主页', link: '/' },
     ],

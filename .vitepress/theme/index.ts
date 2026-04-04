@@ -9,6 +9,24 @@ export default {
   Layout: () => {
     return h(DefaultTheme.Layout, null, {
       // https://vitepress.dev/guide/extending-default-theme#layout-slots
+      'nav-bar-title': () => h('div', {
+        class: 'custom-logo',
+        style: {
+          display: 'flex',
+          alignItems: 'center',
+          gap: '8px'
+        }
+      }, [
+        h('img', {
+          src: '/logo.png',
+          alt: '星跃 | Astral Leap',
+          style: {
+            height: '24px',
+            width: 'auto'
+          }
+        }),
+        h('span', '星跃 | Astral Leap')
+      ])
     })
   },
   enhanceApp({ app, router, siteData }) {
